@@ -1,0 +1,333 @@
+/* libre-franklin-regular - latin */
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/libre-franklin-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Libre Franklin'), local('LibreFranklin-Regular'),
+         url('../fonts/libre-franklin-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/libre-franklin-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/libre-franklin-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/libre-franklin-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/libre-franklin-v4-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+  }
+  /* libre-franklin-500 - latin */
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/libre-franklin-v4-latin-500.eot'); /* IE9 Compat Modes */
+    src: local('Libre Franklin Medium'), local('LibreFranklin-Medium'),
+         url('../fonts/libre-franklin-v4-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/libre-franklin-v4-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/libre-franklin-v4-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/libre-franklin-v4-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/libre-franklin-v4-latin-500.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+  }
+  /* libre-franklin-600 - latin */
+  @font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/libre-franklin-v4-latin-600.eot'); /* IE9 Compat Modes */
+    src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'),
+         url('../fonts/libre-franklin-v4-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/libre-franklin-v4-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/libre-franklin-v4-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/libre-franklin-v4-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/libre-franklin-v4-latin-600.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+  }
+
+html {
+     box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding-top: 93px;
+    width: 1109px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    min-height: 100vh;
+    background-blend-mode: multiply;
+    background: url(../img/header-bg-min.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgba(198, 108, 73, 0.3);
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+}
+
+.header__title {
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu__link a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 60px;
+}
+
+.header__menu__link:last-child a {
+    margin-right: 0;
+}
+
+.header__menu__link:first-child a {
+    font-weight: bold;
+}
+
+.header__greeting {
+    color: #FFFFFF
+}
+
+.header__greeting h1 {
+    font-size: 64px;
+    line-height: 78px;
+    margin-bottom: 26px;
+}
+
+.header__greeting p {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 106px;
+}
+
+.header__greeting a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+.header__greeting a:active, .header__greeting a:focus, .header__greeting a:hover {
+    color: #FFFFFF;
+}
+
+/* ABOUT */
+
+.about__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 76px;
+}
+
+.about__text {
+    margin-bottom: 115px;
+}
+
+/* SKILLS */
+
+.skills {
+    background: #FFFAF2;
+    padding-bottom: 145px;
+}
+
+
+.skills__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 86px;
+}
+
+.skills__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__profile {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.profile__desc, .tools__list {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.tools__title, .skill__name, .profile {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.skill__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+}
+
+
+.skill__name {
+    flex: 0 0 189px;
+}
+
+.skill__desc {
+    width: 446px;
+    height: 24px;
+    background-color: #F5D6AB;
+}
+
+.skill__progress {
+    background: #C66C49;
+    height: 100%;
+}
+
+.first__progress {
+    margin-right: 65px;
+}
+
+.second__progress {
+    margin-right: 95px;
+}
+
+.third__progress {
+    margin-right: 160px;
+}
+
+/* PORTFOLIO SLIDER */
+
+.portfolio__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 86px;
+}
+
+.slider {
+    padding-bottom: 145px;
+}
+.slider__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 41px;
+}
+
+.slider__row {
+    display: flex;
+}
+
+.left__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider__text {
+    line-height: 30px;
+    padding-top: 7px;
+    margin-right: 125px;
+}
+
+.arrow__block {
+    display: flex;
+    max-width: 62px;
+    justify-content: space-between;
+}
+
+.slider__pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pics__col__1 {
+    margin-right: 20px;
+}
+
+.slider__thumb {
+    margin-bottom: 20px;
+}
+/* FOOTER */
+
+.footer {
+    background: #FFFAF2;
+}
+
+.footer__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 51px;
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 182px;
+    padding-bottom: 95px;
+}
+
+.cont__li {
+    margin-bottom: 14px;
+}
+
+.cont__li:last-child {
+    margin-bottom: 0;
+}
+
+.arrow__up {
+display: flex;
+justify-content: flex-end;
+padding-bottom: 70px;
+}
+
+.arrow__up__btn {
+padding-right: 15px;
+}
+
+
+
+
